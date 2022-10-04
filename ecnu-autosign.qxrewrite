@@ -1,0 +1,6 @@
+# ECNU 自动签到重写规则
+# 原始 URL：https://anti-epidemic.ecnu.edu.cn/clock/mini/wx/new?open_key={}
+
+^https:\/\/anti-epidemic\.ecnu\.edu\.cn\/clock\/mini\/wx\/new\?open_key\=(.+) url script-request-header
+
+hostname = https://anti-epidemic.ecnu.edu.cn
