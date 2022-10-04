@@ -2,5 +2,6 @@
 # 原始 URL：https://anti-epidemic.ecnu.edu.cn/clock/mini/wx/new?open_key={}
 
 ^https:\/\/anti-epidemic\.ecnu\.edu\.cn\/clock\/mini\/wx\/new\?open_key\=(.+) url script-request-header https://github.com/billchen2k/ecnu-autosign/raw/main/ecnu-autosign.js
+^https:\/\/anti-epidemic\.ecnu\.edu\.cn\/clock\/mini\/wx\/new\?open_key\=(.+) url script-response-body https://github.com/billchen2k/ecnu-autosign/raw/main/ecnu-autosign.js
 
-hostname = https://anti-epidemic.ecnu.edu.cn
+hostname = anti-epidemic.ecnu.edu.cn
