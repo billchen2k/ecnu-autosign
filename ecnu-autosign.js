@@ -49,6 +49,7 @@ function sign(miniToken, number, name) {
             headers: {
                 'MiniToken': miniToken,
                 'Referer': 'https://servicewechat.com/wxfcaebbc17bdc154b/26/page-frame.html',
+                'content-type': 'application/json',
             },
             method: 'PUT',
             body: {
